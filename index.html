@@ -19,10 +19,10 @@
 <body>
     <!-- NAV -->
     <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark navbar-top">
+            <div class="container-fluid container">
                 <a class="navbar-brand" href="#inicio">
-                    <img src="img/favicon.png" alt="logo" width="120">
+                    <img src="img/favicon.png" alt="logo" width="120" id="#inicio">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -30,37 +30,18 @@
                 <div class="collapse navbar-collapse" id="mynavbar">
                     <ul class="navbar-nav me-auto text-center">
                         <li class="nav-item">
-                            <a id="#inicio" class="nav-link" href="javascript:void(0)">Início</a>
+                            <a id="#inicio" class="nav-link" href="#inicio">Início</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0)">Historia</a>
+                            <a class="nav-link" href="#historia">Historia</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Produçao</a>
+                            <a class="nav-link" href="#producao">Produçao</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Carnes</a>
+                            <a class="nav-link" href="#carnes">Carnes</a>
                         </li>
 
-                    </ul>
-                    <ul class="navbar-nav text-center ">
-                        <li class="nav-item">
-                            <a class="nav-link"
-                                href="https://www.linkedin.com/in/rui-ferreira-cabral-medeiros-magalh%C3%A3es-1a573737a/"
-                                target="_blank">
-                                <img src="img/linkedin.png" alt="link"></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://github.com/ruizxc123 " target=_blank>
-                                <img src="img/github.apng" alt="link"></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"
-                                href="mailto:Ruizxc123@gmail.com?subject=Ruizxc123@gmail.com&body=Ruizxc123@gmail.com"
-                                target="_blank">
-                                <img src="img/gmail.png" alt="gmail" href="https://wa.me/556391034566"
-                                    target="_blank"></a>
-                        </li>
                     </ul>
                     <form class="d-flex">
                         <input class="form-control me-2" type="text" placeholder="Pesquisar">
@@ -70,19 +51,20 @@
             </div>
         </nav>
     </header>
-    <!-- Fotos -->
-    <section>
-        <div class="text-center">
-            <img src="img/carne.jpg" alt="">
-            <h3>Carnes do futuro</h3>
-            <h5>Oque elas são ,como foram criadas?<h5>
+    <!-- Corpo -->
+    <section class="container">
+        <div class="banner">
+            <img src="img/carne.jpg" alt="" class="banner_img">
+            <h3 class="banner_titulo">Carnes do futuro</h3>
+            <h5 class="banner_texto">Oque elas são ,como foram criadas?<h5>
         </div>
     </section>
-    <section>
-        <img src="img/homem.webp" alt="" width="30%">
+    <section id="#historia" class="container caixa">
+        <img src="img/homem.webp" alt="" width="30%" class="caixa_img">
         <div>
-            <h2>Como surgiu a Carne de Laboratório?</h2>
-            <p>A ideia de produzir carne sem abater animais nasceu há quase um século. Em 1931, Winston Churchill já
+            <h2 class="caixa_titulo">Como surgiu a Carne de Laboratório?</h2>
+            <p class="caixa_texto">A ideia de produzir carne sem abater animais nasceu há quase um século. Em 1931, Winston
+                Churchill já
                 previa que um dia cultivaríamos apenas as partes que quiséssemos comer.
                 Mas só décadas depois, com avanços científicos e pesquisas da NASA, essa visão começou a se tornar real.
                 Em 2013, o primeiro hambúrguer cultivado foi apresentado ao mundo — um marco que abriu caminho para
@@ -93,11 +75,11 @@
             <a href="historia.html">Saiba mais</a>
         </div>
     </section>
-    <section>
-        <img src="img/homem.webp" alt="" width="30%">
-        <div>
-            <h2>Como é feita a carne cultivada em laboratório</h2>
-            <p>A carne cultivada nasce de uma ideia simples e poderosa: produzir carne real sem precisar criar ou abater
+    <section class="container">
+        <div class="">
+            <h2 class="">Como é feita a carne cultivada em laboratório</h2>
+            <p class="">A carne cultivada nasce de uma ideia simples e poderosa: produzir carne real sem precisar criar
+                ou abater
                 animais.
                 Tudo começa com a coleta de algumas células — como as células-tronco — que são nutridas em um ambiente
                 controlado, onde se multiplicam e formam tecidos musculares, imitando o que acontece dentro do corpo de
@@ -109,21 +91,66 @@
                 alimentação — unindo ciência, sustentabilidade e ética.</p>
             <a href="produzir.html">Saiba mais</a>
         </div>
+        <img src="img/feita.webp" alt="" width="30%" class="text-center">
     </section>
-    <section>
-        <img src="img/homem.webp" alt="" width="30%">
-        <div>
-            <h2>Como surgiu a Carne de Laboratório?</h2>
-            <p>A ideia de produzir carne sem abater animais nasceu há quase um século. Em 1931, Winston Churchill já
-                previa que um dia cultivaríamos apenas as partes que quiséssemos comer.
-                Mas só décadas depois, com avanços científicos e pesquisas da NASA, essa visão começou a se tornar real.
-                Em 2013, o primeiro hambúrguer cultivado foi apresentado ao mundo — um marco que abriu caminho para
-                startups e empresas investirem nessa revolução alimentar.
+    <section class="container">
+        <img src="img/comida.webp" alt="" width="30%" class="">
+        <div class="">
+            <h2 class="">Onde a carne cultivada já está sendo servida hoje</h2>
+            <p class="">O que parecia coisa de ficção científica já virou realidade.
+                Hoje, carnes cultivadas em laboratório estão sendo servidas em restaurantes nos Estados Unidos e em
+                Singapura, com marcas como Upside Foods e Good Meat liderando essa revolução.
+                Em locais como o Bar Crenn, em São Francisco, e o China Chilcano, em Washington, clientes já
+                experimentam frango cultivado — carne real, feita sem abate de animais.
 
-                Hoje, a carne de laboratório promete reduzir impactos ambientais e eliminar o sofrimento animal, mas
-                ainda enfrenta desafios tecnológicos e econômicos.</p>
-            <a href="historia.html">Saiba mais</a>
+                A produção ainda é pequena e cara, mas representa um marco histórico: o início de uma nova era na
+                alimentação, mais ética e sustentável.</p>
+            <a class="" href="historia.html">Saiba mais</a>
         </div>
+    </section>
+    <!-- Video -->
+    <section class="container">
+        <div class="">
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/UKwIxlsgxHQ?si=zLKgzQZJi-EYFBo7&amp;controls=0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="">
+            <h2 class="">O valor dos elementos sintéticos</h2>
+            <p class="">Os elementos químicos sintéticos mostram como a ciência pode ir além da natureza. Criados em
+                laboratório,
+                eles ajudam a entender melhor o universo e trazem avanços importantes na medicina, na energia e na
+                tecnologia. Mesmo sendo artificiais, são uma grande prova da criatividade e do poder da pesquisa
+                científica.
+            </p>
+        </div>
+    </section>
+
+    <section class="container">
+        <footer class="rodape">
+            <ul>
+                <li><a class="rodade__link"
+                        href="https://www.linkedin.com/in/rui-ferreira-cabral-medeiros-magalh%C3%A3es-1a573737a/"
+                        target="_blank"><img src="img/linkedin.png" alt="linkedin" class="rodade__img"></a></li>
+
+                <li><a class="rodade__link"
+                        href="https://www.linkedin.com/in/rui-ferreira-cabral-medeiros-magalh%C3%A3es-1a573737a/"
+                        target="_blank"><img src="img/gmail.png" alt="gmail" class="rodade__img"></a></li>
+
+                <li><a class="rodade__link" href="https://wa.me/556391034566" target="_blank"><img
+                            src="img/whatsapp.png" alt="whatsapp"></a></li>
+                <li><a class="rodade__link" href="https://github.com/ruizxc123"><img src="img/github.png" alt=" github"
+                            class="rodade__img"></a></li>
+
+                <li><a class="rodade__link"
+                        href="https://www.instagram.com/escolaestadualvilauniao?igsh=MW4wMTNudWlhZTV4eQ=="
+                        target="_blank"><img src="img/instagram.png" alt="instagram da escola" class="rodade__img"></a>
+                </li>
+            </ul>
+            &copy;2025.Todos os direitos resevados para Ruizxc123
+        </footer>
     </section>
 
 </body>
