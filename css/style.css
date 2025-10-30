@@ -22,13 +22,13 @@ body {
 
 /* Classes de texto */
 .texto-titulo {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: var(--fonte-pricipal), sans-serif !important;
     font-weight: 600 !important;
     color: var(--Branco-pricipal) !important;
 }
 
 .texto-subtitulo {
-    font-family: 'Inter', sans-serif !important;
+    font-family: var(--fonte-pricipal), sans-serif !important;
     color: var(--Branco-pricipal) !important;
 }
 
