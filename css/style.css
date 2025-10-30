@@ -186,7 +186,7 @@ body {
 .rodape {
     text-align: center !important;
     padding: 20px 0 !important;
-    background-color: #000 !important; /* Ajuste a cor conforme necessário */
+    background-color: #000 !important; 
 }
 
 .rodape .container {
@@ -198,20 +198,17 @@ body {
     list-style: none !important;
     padding: 0 !important;
     margin: 0 !important;
-    
-    /* Regras Flexbox para alinhamento horizontal e centralização */
     display: flex !important; 
     justify-content: center !important; 
-    
     margin-bottom: 20px !important; 
 }
 
 .rodape__item {
-    margin: 0 15px !important; /* Espaçamento entre os ícones */
+    margin: 0 15px !important; 
 }
 
 .rodape__imagem {
-    width: 40px !important; /* Tamanho dos ícones */
+    width: 40px !important; 
     height: 40px !important; 
     display: block !important;
 }
