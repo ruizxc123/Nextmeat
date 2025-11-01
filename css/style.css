@@ -81,6 +81,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
 }
 
+
 .secao__conteudo {
     padding: 20px !important;
 }
@@ -180,9 +181,15 @@ body {
 .navbar-toggler {
     border-color: var(--Botao-azul) !important;
 }
+/* Referências */
 
 
+.ref__link{
+    color: var(--cinza-secundario);
+    text-decoration: none !important;
+}
 
+/* Rodapé */
 .rodape {
     text-align: center !important;
     padding: 20px 0 !important;
