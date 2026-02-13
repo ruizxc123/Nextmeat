@@ -385,9 +385,9 @@ body {
 
 /* ===== BOTÃO VOLTAR AO TOPO ===== */
 .back-to-top {
+    
     position: fixed;
-    bottom: 30px;
-    right: 30px;
+    text-align: center;
     background: var(--cor-destaque);
     color: var(--cor-texto);
     width: 50px;
